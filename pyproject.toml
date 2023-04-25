@@ -28,22 +28,22 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 dependencies = [
-    "av",
-    "einops",
-    "gdown",
-    "google-cloud-storage",
-    "h5py",
-    "hurry.filesize",
-    "hydra-core==1.1.1",    # Lock Hydra =>> future versions break!
-    "jsonlines",
-    "omegaconf==2.1.2",     # Lock OmegaConf =>> future versions break!
-    "opencv-python",
-    "pandas",
-    "rich",
-    "torch>=2.0.0",         # Native PyTorch Code (Release 2.0.0) uses PyTorch 2.0!
-    "torchvision>=0.15.0",
-    "transformers",
-    "wandb",
+#    "av",
+#    "einops",
+#    "gdown",
+#    "google-cloud-storage",
+#    "h5py",
+#    "hurry.filesize",
+#    "hydra-core==1.1.1",    # Lock Hydra =>> future versions break!
+#    "jsonlines",
+#    "omegaconf==2.1.2",     # Lock OmegaConf =>> future versions break!
+#    "opencv-python",
+#    "pandas",
+#    "rich",
+#   "torch>=2.0.0",         # Native PyTorch Code (Release 2.0.0) uses PyTorch 2.0!
+#    "torchvision>=0.15.0",
+#    "transformers",
+#    "wandb",
 ]
 
 [project.optional-dependencies]
