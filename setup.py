@@ -9,8 +9,7 @@ from setuptools import setup, find_packages
 setup(
   name="voltron", 
   packages=find_packages(
-    where='.', 
-    exclude=['cache'],
+    where='.',
   ), 
   package_dir={"": "."},
 )
