@@ -6,4 +6,4 @@ yet upgraded.
 """
 from setuptools import setup
 
-setup()
+setup(name="voltron")
