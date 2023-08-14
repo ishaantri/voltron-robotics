@@ -6,4 +6,11 @@ yet upgraded.
 """
 from setuptools import setup, find_packages
 
-setup(name="voltron", packages=find_packages(where='.', exclude=['cache'],), package_dir={"": "."})
+setup(
+  name="voltron", 
+  packages=find_packages(
+    where='.', 
+    exclude=['cache'],
+  ), 
+  package_dir={"": "."},
+)
